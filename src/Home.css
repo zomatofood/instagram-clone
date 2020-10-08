@@ -1,0 +1,13 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+@media screen and (max-width:768px){
+    .home{
+        display:inline-block;
+        margin:10px;
+    }
+}
